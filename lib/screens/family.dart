@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:learn_korean/widgets/cards.dart';
 import 'package:learn_korean/widgets/custom_text.dart';
-
+import 'package:audioplayers/audioplayers.dart';
 class Family extends StatefulWidget {
   const Family({super.key});
 
@@ -135,8 +135,8 @@ class _FamilyState extends State<Family> {
                             ),
                              IconButton(
                               onPressed: () {
-                                /*final player = AudioPlayer();
-                                player.play(AssetSource('sounds/family/baby.mp3'));*/
+                                final player = AudioPlayer();
+                                player.play(AssetSource('sounds/family/baby.mp3'));
                               },
                               icon: const Icon(Icons.play_circle_fill_outlined),
                             ),
