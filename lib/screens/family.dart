@@ -2,7 +2,7 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:learn_korean/widgets/cards.dart';
 import 'package:learn_korean/widgets/custom_text.dart';
-
+import 'package:audioplayers/audioplayers.dart';
 class Family extends StatefulWidget {
   const Family({super.key});
 
