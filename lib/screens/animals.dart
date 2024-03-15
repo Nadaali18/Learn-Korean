@@ -45,7 +45,7 @@ class _AnimalState extends State<Animal> {
                 image1: 'assets/images/animals/bear.jpg',
                 text1: '곰',
                 text2: 'gom',
-                text3: 'bear (shehab ^_^)',
+                text3: 'bear (shehab)',
                  sound1: 'sounds/animal/bear.m4a',
                 image2: 'assets/images/animals/penguin.jpg',
                 text4: '펭귄',
